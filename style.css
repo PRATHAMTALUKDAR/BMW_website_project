@@ -1,0 +1,195 @@
+.body{
+    background-color : rgb(210, 210, 210);
+    width: 100%;
+    margin: auto;
+}
+.model{
+    z-index: 1;
+    height: 550px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    height: 45px;
+    margin-bottom: 18px;
+    margin-left: 5px;
+}
+.m_power{
+    height : 80px;
+    margin-top: 5px;
+}
+.nav{
+    background-color: rgb(255, 255, 255);
+    margin-left: 155px;
+    margin-bottom: -10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -75px;
+    height: 50px;
+}
+li,a{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    color: rgb(127, 127, 127);
+    display: inline-block;
+    margin-left: 15px;
+    font-family :sans-serif;
+    text-shadow: 2px 2px 4px rgb(137, 137, 137);
+}
+.upper_box{
+    z-index: 1;
+    background-color: rgba(61, 61, 61, 0.852);
+    height: 65px;
+    width : 100%;
+    margin-top : 25px;
+    box-shadow: 1px 5px 9px 10px rgb(172, 172, 172);
+}
+.deals{
+    z-index: 1;
+    text-align: center;
+    font-family :sans-serif;
+    font-weight: bold;
+    color :rgb(240, 240, 240);
+    padding: 14px;
+    margin-top: -25px;
+}
+.nav_div{
+    box-shadow: 1px 5px 10px -10px rgb(189, 189, 189);
+    padding-bottom : 40px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 25px;
+    margin-left: 0px;
+    margin-top : -23px;
+}
+.video{
+    object-fit: cover;
+    margin-left: 0px;
+    margin-top: -20px ;
+    height : 585px;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    pointer-events: none;
+}
+.browse_button{
+    z-index: 1;    
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    padding : 15px;
+    font-size: 25px;
+    margin-top: -100px;
+    margin-left: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(240, 255, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.deals_button{
+    z-index: 1;    
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    padding : 15px;
+    font-size: 25px;
+    margin-top: -100px;
+    margin-left: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(240, 255, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sec{
+    padding-bottom: 40px;
+    margin-top: -2px;
+    text-align: center;
+    margin-left: 5px;
+    padding-right: 10px;
+    margin-right: 20px;
+    z-index: 1;
+}
+.second_div{
+    background-color: rgba(255, 255, 255, 0.662);
+    width: 35%;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: -570px;
+    z-index: 1;
+    position : absolute;
+    /* position: fixed; */
+    margin-left: 30%;
+}
+#fix{
+    color:rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.sec #fix:hover{
+    color : rgb(42, 42, 42)
+}
+li a:hover{
+    color : rgb(34, 145, 255)
+}
+.fade_text{
+    text-shadow: 15px 8px 10px grey;
+    font-size: 65px ;
+    margin-left: -40px;
+    margin-bottom : 50px;
+    color: rgb(57, 57, 57);
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.first_text{
+    margin-top: 100px;
+    z-index: 0;
+    text-align: center;
+}
+.first_para{
+    z-index: 1;
+    color : grey;
+    font-size: 35px;
+    margin-top: -50px;
+    text-align: center;
+
+}
+.bmw_model_image{
+    z-index: 2;
+    height: 550px;
+    margin-top: -980px;
+    align-content: center;
+}
+.image{
+    margin-top: 220px;
+}
+.login{
+    text-align: center;
+    background-color: rgb(31, 102, 255);
+    text-align: center;
+    font-weight : 700;
+    color :rgba(245, 245, 245, 0.939);
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    width: 90px;
+    margin-right: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 6px 3px 5px 1px rgba(128, 128, 128, 0.425);
+}
+.register{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(31, 102, 255);
+    text-align: center;
+    font-weight :700;
+    color :rgba(245, 245, 245, 0.939);
+    height: 30px;
+    box-shadow: 6px 3px 5px 1px rgba(128, 128, 128, 0.425);
+
+}
+.login_reg{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -25px;
+    color: whitesmoke;
+}
