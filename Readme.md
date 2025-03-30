@@ -1,0 +1,1 @@
+A simple webite made with HTML,CSS and javascript
