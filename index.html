@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body class = "body">
+<body class = "body" oncontextmenu="return false;">
     <div style = " text-align: left ;"class = "nav_div">
         <header>
             <img class = "logo" src = "assets/bmw_rel_logo.png" alt = "bmw_logo">
@@ -41,16 +41,6 @@
                 <li class = "sec"><a id="fix" href = "">Present</a></li>
                 <li class = "sec"><a id="fix" href = "">Future</a></li>
     </div>
-    <!-- <script>  internal js
-        var a = 2;
-        console.log("Value of a is",a);
-    </script> -->
-    <!--<model-viewer class = "model" src = "assets/untitled.glb" disable-zoom shadow-intensity ="1"></model-viewer>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-    <script>
-        const modelviewer = document.querySelector('model-viewer');
-        modelviewer.cameraOrbit = '90deg 90deg 1.m';
-    </script>-->
     <div class="first_text">
         <pre><p class = "fade_text">Unleash the thrill : your BMW awaits
 Engineered for exhilaration
@@ -60,9 +50,21 @@ Drive your dream
     <div class = "image" style = "text-align: center;">
         <img class = "bmw_model_image" src = "assets/bmw_model_image.png" alt = "bmw_model_image">
     <p class = "first_para">Ignite your passion with your first BMW. Purchase and unlock an exclusive connection, experiencing the pinnacle of sporting performance and refined luxury.</p>
-    
-    <!-- EVENT LISTNER -->
-    <!-- <p id = "demo"></p>
-    <button onclick="document.getElementById('demo').innerHTML = Date()">Date is</button> --> 
+    <div class = "section">
+        <h1 class="loan_title">CAR LOAN CALCULATOR</h1>
+        <img class = "loan_img" src = "assets/loan.jpg" alt = "loan.jpg">
+    </div>
+    <div class = "loan">
+        <input id = "result" type="number" placeholder="0" disabled> 
+        <input id = "amt" type="number" placeholder="Enter your loan amount">
+        <input id = "time" type="number" placeholder="Enter number of years">
+        <p class = "rate">You will be charged a interest rate of 0.12% per year</p>
+        <p class = "rate2">You will be charged a interest rate of 0.12% per year</p>
+        <button id = "calc" onclick="calculate_loan()">CALCULATE</button>
+    </div>
 </body>
+    <footer>
+        <img class = "logo_last" src = "assets/bmw_rel_logo.png" alt = "bmw_logo">
+        <p class = "end">&copy 2025 PRATHAM TALUKDAR <a class = "last" href="">Terms</a><a class = "last" href="">Policies</a><a class = "last" href="">Security</a><a class = "last" href="">Status</a><a class = "last" href="">Docs</a><a href="" class = "last">Manage cookies</a></p>
+    </footer>
 </html>
